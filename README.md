@@ -21,7 +21,7 @@ How to win?
 >You win when you flag all the mines currectly.
 
 When you lose?
->You lose when you het a mine
+>You lose when you hit a mine
 
 You can change board size from the game options panel on the right side.
 Note: when the height and width are greater then the screen size, arrows will be added to the board for scrolling, this was done for performance boosting
