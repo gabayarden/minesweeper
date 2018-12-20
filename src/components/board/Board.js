@@ -97,8 +97,9 @@ class Board extends Component {
   }
 
   onCellFlagged(cells, row, col) {
-    let isCellAlreadyFlagged = cells[row][col].isFlagged;
-    if(!this.props.hasFlags() && !isCellAlreadyFlagged)
+    let isCellAlreadyFlagged = cells[row][col].isFlagged
+    let isCellOpen = cells[row][col].isOpen;
+    if((!this.props.hasFlags() && !isCellAlreadyFlagged) || isCellOpen)
     {
       return;
     }
