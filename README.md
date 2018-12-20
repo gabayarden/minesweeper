@@ -26,5 +26,5 @@ When you lose?
 You can change board size from the game options panel on the right side.
 Note: when the height and width are greater then the screen size, arrows will be added to the board for scrolling, this was done for performance boosting
 
-You can see a live version here:
+**You can see a live version here:**
 https://gabayarden.github.io/minesweeper/
