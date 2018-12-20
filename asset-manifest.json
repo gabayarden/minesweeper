@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.3c56ac7a.chunk.css",
-  "main.js": "/static/js/main.620d3776.chunk.js",
-  "main.js.map": "/static/js/main.620d3776.chunk.js.map",
-  "static/js/1.fcd9c58e.chunk.js": "/static/js/1.fcd9c58e.chunk.js",
-  "static/js/1.fcd9c58e.chunk.js.map": "/static/js/1.fcd9c58e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.3c56ac7a.chunk.css.map": "/static/css/main.3c56ac7a.chunk.css.map",
-  "static/media/MineSweeper.css": "/static/media/bg.542e9ff6.svg",
-  "static/media/BoardCell.css": "/static/media/red_flag.1c6cbace.svg",
-  "index.html": "/index.html",
-  "precache-manifest.b703d8065a325e9433792a223a52cf89.js": "/precache-manifest.b703d8065a325e9433792a223a52cf89.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/minesweeper/static/css/main.8800ece3.chunk.css",
+  "main.js": "/minesweeper/static/js/main.cfd9affa.chunk.js",
+  "main.js.map": "/minesweeper/static/js/main.cfd9affa.chunk.js.map",
+  "static/js/1.fcd9c58e.chunk.js": "/minesweeper/static/js/1.fcd9c58e.chunk.js",
+  "static/js/1.fcd9c58e.chunk.js.map": "/minesweeper/static/js/1.fcd9c58e.chunk.js.map",
+  "runtime~main.js": "/minesweeper/static/js/runtime~main.e96a4862.js",
+  "runtime~main.js.map": "/minesweeper/static/js/runtime~main.e96a4862.js.map",
+  "static/css/main.8800ece3.chunk.css.map": "/minesweeper/static/css/main.8800ece3.chunk.css.map",
+  "static/media/MineSweeper.css": "/minesweeper/static/media/bg.542e9ff6.svg",
+  "static/media/BoardCell.css": "/minesweeper/static/media/red_flag.1c6cbace.svg",
+  "index.html": "/minesweeper/index.html",
+  "precache-manifest.176a1edfce0d4815bd3574dd24f4ab15.js": "/minesweeper/precache-manifest.176a1edfce0d4815bd3574dd24f4ab15.js",
+  "service-worker.js": "/minesweeper/service-worker.js"
 }
