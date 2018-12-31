@@ -70,21 +70,28 @@ export const createCells = ({height, width, minePlaces}) => {
     return row[colIndex] && row[colIndex].type === cellType.MINE;
   }
 
+
   export const generateMinePlaces = ({height, width, numOfMines}) => {
     if(numOfMines > height * width)
       return [];
-    const totalNumOfCells = height * width;
+    let availablePlaces = getAvailablePlaces(height, width);
     let minePlaces = [];
-    let generatedNumbers = [];
     while(minePlaces.length < numOfMines){
-      var mineIndex = Math.floor(Math.random()*totalNumOfCells);
-      if(generatedNumbers.indexOf(mineIndex) === -1) {
-        let row = Math.floor(mineIndex / width);
-        let col = mineIndex % width;
-        minePlaces.push({row, col});
-        generatedNumbers.push(mineIndex);
-      }
+      let indexForPlace = Math.floor(Math.random() * availablePlaces.length);
+      let mineIndex = availablePlaces.splice(indexForPlace,1);
+      let row = Math.floor(mineIndex / width);
+      let col = mineIndex % width;
+      minePlaces.push({row, col});
     }
     return minePlaces;
   }
+  
+ const getAvailablePlaces = (height, width) => {
+  const totalNumOfCells = height * width;
+  let availablePlaces = [];
+  for (let i = 0; i < totalNumOfCells; i++) {
+    availablePlaces.push(i);
+  }
+  return availablePlaces;
+}
   
